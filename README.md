@@ -5,6 +5,7 @@ This microcontroler is the client. Turn it on after the microcontroler 2 (server
 This microcontrolers is connected to a button and an LED.(button is connected to ground and to the pin of the microcontroler, LED is connected to ground and also to the pin of the microcontroler using a resistor)
 The onboard LED is used to signalise connecting to WiFi.
 Then after the mictrocontroler establishes a connection with the alarm the green LED is turned on for 5s.
+If the connection is not established the onboard LED turns on for 2s and then microcontroler 1 restarts.
 The system checks if the connection is still alive and if it is it blinks the green LED for 0,5s each 5 mins. (The connection check runs each 5 mins)
 If the connection is lost the onboard LED will remain turned on.
 When the button is pressed the LED starts blinking and it sends a message to the alarm (second microcontroler) using socket server.
