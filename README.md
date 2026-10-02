@@ -1,5 +1,5 @@
 # ALARM_using_WiFi
-This is a code for a simple alarm system that uses 2 microcontrolers which they comunicate over local WiFi network. 
+This is a code for a simple alarm system that uses 2 microcontrolers which comunicate over local WiFi network. 
 # Alarm trigger (microcontroler 1):
 This microcontroler is the client. Turn it on after the microcontroler 2 (server) is ready for connection. \
 This microcontrolers is connected to a button and an LED.(button is connected to ground and to the pin of the microcontroler, LED is connected to ground and also to the pin of the microcontroler using a resistor) \
